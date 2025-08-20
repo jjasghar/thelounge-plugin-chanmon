@@ -1,6 +1,6 @@
 {
   "name": "thelounge-plugin-chanmon",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A plugin for TheLounge that creates a local channel monitor to stream all channel activity in real-time",
   "main": "index.js",
   "keywords": [
@@ -26,5 +26,15 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "test:basic": "mocha test/simple.test.js",
+    "test:integration": "mocha test/integration.test.js",
+    "test:unit": "mocha test/unit.test.js"
   }
 }
