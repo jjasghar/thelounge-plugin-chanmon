@@ -1,0 +1,30 @@
+{
+  "name": "thelounge-plugin-chanmon",
+  "version": "1.0.0",
+  "description": "A plugin for TheLounge that creates a local channel monitor to stream all channel activity in real-time",
+  "main": "index.js",
+  "keywords": [
+    "thelounge",
+    "irc",
+    "thelounge-plugin",
+    "channel",
+    "monitor",
+    "chanmon"
+  ],
+  "author": "jjasghar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjasghar/thelounge-plugin-chanmon.git"
+  },
+  "homepage": "https://github.com/jjasghar/thelounge-plugin-chanmon#readme",
+  "bugs": {
+    "url": "https://github.com/jjasghar/thelounge-plugin-chanmon/issues"
+  },
+  "thelounge": {
+    "supports": ">=4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
